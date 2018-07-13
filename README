@@ -1,0 +1,6 @@
+项目结构说明（根据文件夹及职能）：
+     action 相对views  action里编写页面入口js，views里是页面模板，入口所在文件夹的名称与页面所在文件夹名称一一对应
+     api 里面是 axios的请求模块和uitl工具模块 （node层的接口转发调用）
+     fileService 文件服务代码，上传下载
+     router 定义模块服务的路由
+     widget  服务端渲染的request模块（由action里的入口js调用）
